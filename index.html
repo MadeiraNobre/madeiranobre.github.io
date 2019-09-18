@@ -5,9 +5,9 @@
     
     <title>Madeira Nobre Móveis - Arte & Decoração</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/iframeControler.js"></script>
 </head>
 <body>
-    <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Madeira Nobre Móveis</a>
@@ -22,12 +22,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-page="/Privacy">Privacidade</a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <iframe class="embed-responsive" src="paginas/home.html" style="border: none;" scrolling="no" onload="resizeIframe(this)"></iframe> 
 </body>
 </html>
