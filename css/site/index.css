@@ -1,11 +1,18 @@
 a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
-  }
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
 
 iframe.main{
+  margin-top: 57px;
   border: none; 
-  position: absolute;
-  height: 100%;
+  flex-wrap: wrap !important;
+  width: 100%;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
