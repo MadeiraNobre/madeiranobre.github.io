@@ -4,7 +4,7 @@ function setIframeHeightCO(id, ht) {
     var ifrm = document.getElementById(id);
     ifrm.style.visibility = 'hidden';
     // some IE versions need a bit added or scrollbar appears
-    ifrm.style.height = ht + 50 + "px";
+    ifrm.style.height = ht + "px";
     ifrm.style.visibility = 'visible';
 }
 
