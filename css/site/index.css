@@ -3,3 +3,9 @@ a.navbar-brand {
     text-align: center;
     word-break: break-all;
   }
+
+iframe.main{
+  border: none; 
+  position: absolute;
+  height: 100%;
+}
