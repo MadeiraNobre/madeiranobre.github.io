@@ -1,7 +1,59 @@
 var iframe = null;
 
-function iframeLoad(){
+function setUrlParameter(url, key, value) {
+
+    var baseUrl = url.split('?')[0],
+        urlQueryString = '?' + url.split('?')[1],
+        newParam = key + '=' + value,
+        params = '?' + newParam;
+
+    // If the "search" string exists, then build params from it
+    if (urlQueryString) {
+        var updateRegex = new RegExp('([\?&])' + key + '[^&]*');
+        var removeRegex = new RegExp('([\?&])' + key + '=[^&;]+[&;]?');
+
+        if (typeof value === 'undefined' || value === null || value === '') { // Remove param if value is empty
+            params = urlQueryString.replace(removeRegex, "$1");
+            params = params.replace(/[&;]$/, "");
+
+        } else if (urlQueryString.match(updateRegex) !== null) { // If param exists already, update it
+            params = urlQueryString.replace(updateRegex, "$1" + newParam);
+
+        } else { // Otherwise, add it to end of query string
+            params = urlQueryString + '&' + newParam;
+        }
+    }
+
+    // no parameter was set so we don't need the question mark
+    params = params === '?' ? '' : params;
+
+    let newurl = baseUrl + params;
+
+    if(window.location.href != newurl){
+        window.location.href = newurl;
+    }
+}
+
+function getUrlParameter(url, parameter) {
+    parameter = parameter.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?|&]' + parameter.toLowerCase() + '=([^&#]*)');
+    var results = regex.exec('?' + url.toLowerCase().split('?')[1]);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+}
+
+$(document).ready(function(){
     iframe = document.getElementById('conteudoiframe');
+    let iframelocal = getUrlParameter(window.location.href, "pagina");
+    if(iframelocal){
+        setIframe(iframelocal);
+    }
+});
+
+
+
+
+function iframeLoad(){
+    
     iframe.onclick = function(e) {
         e = e || window.event;
         var tgt = e.target? e.target: e.srcElement;
@@ -27,9 +79,11 @@ function handleDocHeightMsg(e) {
     if ( !data['href']) {
         setIframeHeightCO(data['docHeight'] );
     } else { 
-        setIframe(data['href']);
+        setUrlParameter(window.location.href, "pagina", data["href"]);
     }
 }
+
+
 
 
 // called onclick of links that target iframe
