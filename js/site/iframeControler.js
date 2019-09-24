@@ -79,7 +79,7 @@ function handleDocHeightMsg(e) {
     if ( !data['href']) {
         setIframeHeightCO(data['docHeight'] );
     } else { 
-        setUrlParameter(window.location.href, "pagina", data["href"]);
+        setIframe(data['href']);
     }
 }
 
