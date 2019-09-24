@@ -20,3 +20,12 @@ if ( window.addEventListener ) {
 } else if ( window.attachEvent ) { // ie8
     window.attachEvent('onload', sendDocHeightMsg);
 }
+
+// Send message to parent to load new document in iframe
+function sendSetIframeMsg(href) {
+    if ( parent !== self) { // in iframe?
+        parent.postMessage( JSON.stringify( {'href': href} ), '*' );
+        return false;
+    }
+    return true; // follow link
+}
