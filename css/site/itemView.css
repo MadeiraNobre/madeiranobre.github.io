@@ -1,3 +1,20 @@
+:root{
+    --width-slide: 555px;
+    --heigh-slide: 370px;
+}
+
 body{
-    height: 10000px;
+    height: 6000px;
+}
+
+
+.slideshow{
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
+}
+
+.imgformat{
+    object-fit: fill !important;
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
 }

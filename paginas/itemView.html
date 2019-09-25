@@ -8,16 +8,36 @@
         <link rel="stylesheet" href="../css/site/itemView.css"/>
         <script src="../js/site/iframeFilho.js"></script>
         <script src="../js/bootstrap/jquery.js"></script>
-        <script src="../resorces/moveis-db/moveis.js"></script>
         <script src="../js/site/viewControler.js"></script>
+        <script src="../js/bootstrap/popper.js"></script>
+        <script src="../js/bootstrap/bootstrap.js"></script>
+        <script src="../resorces/moveis-db/moveis.js"></script>
+        
     </head>
     <body>
-        <div id="imagensMovel"></div>
         <div>
-            <h1 id="nomeMovel"></h1>
+            <h1 id="nomeMovel" class="display-1"></h1>
         </div>
         <div>
             <p id="descricao"></p>
+        </div>
+
+        <div id="slideshow" class="slideshow">
+            <div id="slide" class="carousel slide" data-ride="carouseul">
+                <ol id="controles" class="carousel-indicators">
+                    
+                </ol>
+                <div id="imagesLocal" class="carousel-inner">
+                </div>
+                <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Proxima</span>
+                </a>
+            </div>
         </div>
     </body>
 </html>

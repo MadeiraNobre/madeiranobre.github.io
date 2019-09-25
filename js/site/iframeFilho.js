@@ -1,3 +1,5 @@
+var tamanho = 0;
+
 // Get height of document
 function getDocHeight(doc) {
     doc = doc || document;
@@ -8,18 +10,36 @@ function getDocHeight(doc) {
     return height;
 }
 
+function getWidth() {
+    return Math.max(
+      document.body.scrollWidth,
+      document.documentElement.scrollWidth,
+      document.body.offsetWidth,
+      document.documentElement.offsetWidth,
+      document.documentElement.clientWidth
+    );
+  }
+
 // send docHeight onload
 function sendDocHeightMsg(e) {
     var ht = getDocHeight();
+    tamanho = getWidth();
     parent.postMessage( JSON.stringify( {'docHeight': ht} ), '*' );
 }
 
-// assign onload handler 
-if ( window.addEventListener ) {
-    window.addEventListener('load', sendDocHeightMsg, false);
-} else if ( window.attachEvent ) { // ie8
-    window.attachEvent('onload', sendDocHeightMsg);
+function loader(){
+    // assign onload handler 
+    if ( window.addEventListener ) {
+        window.addEventListener('load', sendDocHeightMsg, false);
+    } else if ( window.attachEvent ) { // ie8
+        window.attachEvent('onload', sendDocHeightMsg);
+    }
 }
+
+loader();
+
+
+
 
 // Send message to parent to load new document in iframe
 function sendSetIframeMsg(href) {

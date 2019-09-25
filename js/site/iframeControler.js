@@ -66,6 +66,7 @@ function iframeLoad(){
 function setIframeHeightCO(ht) {
     iframe.style.visibility = 'hidden';
     // some IE versions need a bit added or scrollbar appears
+    //document.documentElement.style.setProperty('--tamanho-iframe', (ht + 'px'));
     iframe.style.height = ht + "px";
     iframe.style.visibility = 'visible';
 }
@@ -84,7 +85,11 @@ function handleDocHeightMsg(e) {
 }
 
 
+function refazerSize(){
+    document.location.reload();
+}
 
+window.addEventListener("resize", refazerSize);
 
 // called onclick of links that target iframe
 function setIframe(href) {
