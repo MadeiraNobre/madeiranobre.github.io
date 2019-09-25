@@ -15,29 +15,36 @@
         
     </head>
     <body>
-        <div>
+        <div class="text-center">
             <h1 id="nomeMovel" class="display-1"></h1>
         </div>
-        <div>
-            <p id="descricao"></p>
-        </div>
-
-        <div id="slideshow" class="slideshow">
-            <div id="slide" class="carousel slide" data-ride="carouseul">
-                <ol id="controles" class="carousel-indicators">
-                    
-                </ol>
-                <div id="imagesLocal" class="carousel-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col jumbotron">
+                    <p id="descricao" class="text-justify h4"></p>
                 </div>
-                <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Proxima</span>
-                </a>
+                <div class="col-sm">
+                    <div id="slideshow" class="slideshow">
+                        <div id="slide" class="carousel slide" data-ride="carouseul">
+                            <ol id="controles" class="carousel-indicators">
+                                
+                            </ol>
+                            <div id="imagesLocal" class="carousel-inner">
+                            </div>
+                            <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#slide" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Proxima</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        
     </body>
 </html>
