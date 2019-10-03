@@ -1,0 +1,16 @@
+
+:root{
+    --width-slide: 100%;
+    --heigh-slide: 570px;
+  }
+
+.slideshow{
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
+  }
+  
+  .imgformat{
+    object-fit: fill !important;
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
+  }
