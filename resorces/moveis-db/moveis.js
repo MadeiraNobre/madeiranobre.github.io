@@ -11,6 +11,16 @@ var db = `
                 "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Suposta poltrona Verdona",
+            "descricao": "teste de poltrona",
+            "imgs" : 
+            [
+                "verdona4.gif", "verdona4.gif"
+            ]
+            
         }
     ]
 }`;

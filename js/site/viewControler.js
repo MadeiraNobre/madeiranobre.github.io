@@ -43,11 +43,5 @@ function PegarMovel(dados, id){
 
 $(document).ready(function(){
     let dados = JSON.parse(db);
-    PegarMovel(dados, 0);
+    PegarMovel(dados, 1);
 });
-
-/*
-let elemento = document.createElement("img");
-            elemento.src = ("../resorces/moveis-db/imgmoveis/" + dados.moveis[id].imgs[i]);
-            document.getElementById('imagensMovel').appendChild(elemento);
-            */
