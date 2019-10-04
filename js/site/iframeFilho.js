@@ -38,7 +38,10 @@ function loader(){
 
 loader();
 
-
+function CarregarItemView(href, id){
+    $.cookie("id_movel", id);
+    sendSetIframeMsg(href);
+}
 
 
 // Send message to parent to load new document in iframe

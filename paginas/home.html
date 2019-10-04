@@ -9,7 +9,8 @@
     <script src="../js/bootstrap/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.js"></script>
     <script src="../js/site/iframeFilho.js"></script>
-    <script type="module" src="../js/site/viewSender.mjs"></script>
+    <script src="../js/bootstrap/jquery.cookie.js"></script>
+    <script src="../js/site/viewSender.js"></script>
 </head>
 <body>
     <div id="slideshow" class="slideshow">
@@ -52,6 +53,6 @@
             </a>
         </div>
     </div> 
-    <a href="itemView.html" onclick="return sendSetIframeMsg(this.href);">Open View</a>  
+    <a href="itemView.html" onclick="return CarregarItemView(this.href, 0);">Open View</a>  
 </body>
 </html>

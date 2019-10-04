@@ -42,6 +42,8 @@ function PegarMovel(dados, id){
 }
 
 $(document).ready(function(){
-    let dados = JSON.parse(db);
-    PegarMovel(dados, 1);
+    $.getJSON('/resorces/moveis-db/moveis.json', function(data){
+        let id = $.cookie("id_movel");
+        PegarMovel(data, id);
+    });
 });
