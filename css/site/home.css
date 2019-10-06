@@ -2,8 +2,8 @@
 :root{
   --width-slide: 100%;
   --heigh-slide: 570px;
-  --hthumb: 100px;
-  --wthumb: 100%;
+  --hthumb: 400px;
+  --wthumb: 460px;
 }
 
 .slideshow{
