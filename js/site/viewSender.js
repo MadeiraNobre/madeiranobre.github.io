@@ -35,10 +35,13 @@ function CriarLinhaImagem(json, linha){
 
 
 function SetList(json){
-    CriarLinhaImagem(json, 0);
+    let tamanho = json.moveis.length / elemento_row;
     
     
-
+    for(let i = 0; i < tamanho; i++){
+        CriarLinhaImagem(json, i);
+    }
+    
     sendDocHeightMsg();
 }
 
