@@ -1,5 +1,6 @@
-var iframe = null;
+let iframe = null;
 
+/*
 function setUrlParameter(url, key, value) {
 
     var baseUrl = url.split('?')[0],
@@ -41,9 +42,14 @@ function getUrlParameter(url, parameter) {
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 }
 
+*/
+
+
 $(document).ready(function(){
+    $.cookie("largura", document.documentElement.clientWidth);
+    
     iframe = document.getElementById('conteudoiframe');
-    let iframelocal = getUrlParameter(window.location.href, "pagina");
+    //let iframelocal = getUrlParameter(window.location.href, "pagina");
     if(iframelocal){
         setIframe(iframelocal);
     }
@@ -57,7 +63,7 @@ function iframeLoad(){
     iframe.onclick = function(e) {
         e = e || window.event;
         var tgt = e.target? e.target: e.srcElement;
-        setIframe(tgt.target, tgt.href)
+        setIframe(tgt.target, tgt.href);
     }
 }
 
@@ -86,7 +92,9 @@ function handleDocHeightMsg(e) {
 
 
 function refazerSize(){
-    document.location.reload();
+    if(document.documentElement.clientWidth != $.cookie("largura")){
+        document.location.reload();
+    }
 }
 
 window.addEventListener("resize", refazerSize);

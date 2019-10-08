@@ -2,7 +2,7 @@
 :root{
   --width-slide: 100%;
   --heigh-slide: 570px;
-  --hthumb: 100px;
+  --hthumb: 150px;
   --wthumb: 100%;
 }
 
@@ -19,7 +19,8 @@
 
 
 img.thumb {
-  object-fit: fill !important;
+  object-fit: cover !important;
   width: var(--wthumb) !important;
   height: var(--hthumb) !important;
 }
+

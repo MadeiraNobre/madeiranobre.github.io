@@ -1,4 +1,4 @@
-const elemento_row = 6;
+const elemento_row = 3;
 
 function CriarLinhaImagem(json, linha){
     let itens = document.getElementById('itens');
@@ -10,8 +10,9 @@ function CriarLinhaImagem(json, linha){
 
     for(let i = linha * elemento_row; i < json.moveis.length && i < limite; i++){
         if(json.moveis[i].ativado){
+            
             let coluna = document.createElement("div");
-            coluna.setAttribute('class', 'col-sm');
+            coluna.setAttribute('class', 'col-4 text-center');
             let ahref = document.createElement("a");
             ahref.setAttribute('href', 'itemView.html');
             ahref.setAttribute('onclick', ('return CarregarItemView(this.href, ' + i + ');'));
