@@ -1,5 +1,16 @@
 let iframe = null;
 
+$(document).ready(function(){
+    $.cookie("largura", document.documentElement.clientWidth);
+    
+    iframe = document.getElementById('conteudoiframe');
+    //let iframelocal = getUrlParameter(window.location.href, "pagina");
+    //if(iframelocal){
+      //  setIframe(iframelocal);
+    //}
+});
+
+
 /*
 function setUrlParameter(url, key, value) {
 
@@ -45,15 +56,7 @@ function getUrlParameter(url, parameter) {
 */
 
 
-$(document).ready(function(){
-    $.cookie("largura", document.documentElement.clientWidth);
-    
-    iframe = document.getElementById('conteudoiframe');
-    //let iframelocal = getUrlParameter(window.location.href, "pagina");
-    if(iframelocal){
-        setIframe(iframelocal);
-    }
-});
+
 
 
 
