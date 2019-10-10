@@ -6,6 +6,10 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+nav.navbarsettings{
+  z-index: 200 !important;
+}
+
 iframe.main{
   margin-top: 57px;
   border: none; 

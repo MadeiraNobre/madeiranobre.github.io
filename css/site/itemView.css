@@ -1,6 +1,6 @@
 :root{
     --width-slide: 100%;
-    --heigh-slide: 370px;
+    --heigh-slide: 100%;
 }
 
 
@@ -16,3 +16,11 @@
     height: var(--heigh-slide) !important;
 }
 
+div.format{
+    margin-bottom: 0 !important;
+}
+
+div.centralizador{
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+}
