@@ -54,6 +54,7 @@ window.addEventListener("resize", refazerSize);
 // called onclick of links that target iframe
 function setIframe(href) {
     $.cookie("local", href);
+    $("html, body").animate({scrollTop: 0}, 200);
     iframe.style.height = '10px'; // reset to minimal height in case going from longer to shorter doc
     iframe.src = href; 
 }
