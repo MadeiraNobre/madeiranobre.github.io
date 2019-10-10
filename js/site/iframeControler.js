@@ -5,7 +5,9 @@ $(document).ready(function(){
     
     iframe = document.getElementById('conteudoiframe');
     
-    setIframe($.cookie("local"));
+    if($.cookie("local")){
+        setIframe($.cookie("local"));
+    }
 
 });
 
