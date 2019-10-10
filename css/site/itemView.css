@@ -3,7 +3,9 @@
     --heigh-slide: 370px;
 }
 
-
+h1.tituloformat{
+    text-overflow: clip;
+}
 
 .slideshow{
     width: var(--width-slide) !important;
