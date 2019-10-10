@@ -36,6 +36,8 @@ function PegarMovel(dados, id){
             imgElement.setAttribute('alt', 'Imagem do Movel');
             imgElement.src = ("../resorces/moveis-db/imgmoveis/" + dados.moveis[id].imgs[i]);
             document.getElementById(('divimg' + i)).appendChild(imgElement);
+
+            sendDocHeightMsg();
         }
 
     }
@@ -46,4 +48,6 @@ $(document).ready(function(){
         let id = $.cookie("id_movel");
         PegarMovel(data, id);
     });
+
+    
 });
