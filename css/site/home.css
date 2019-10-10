@@ -1,7 +1,7 @@
 
 :root{
   --width-slide: 100%;
-  --heigh-slide: 570px;
+  --heigh-slide: 670px;
   --hthumb: 150px;
   --wthumb: 100%;
 }
@@ -12,7 +12,7 @@
 }
   
 .imgformat{
-  object-fit: fill !important;
+  object-fit: fill;
   width: var(--width-slide) !important;
   height: var(--heigh-slide) !important;
 }

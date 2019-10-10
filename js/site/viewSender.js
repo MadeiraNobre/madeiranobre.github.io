@@ -47,10 +47,29 @@ function SetList(json){
 }
 
 $(document).ready(function(){
+    window.addEventListener("resize", alterarFit);
     $.getJSON('/resorces/moveis-db/moveis.json', function(data){
         SetList(data);
-    });
+    });    
 });
+
+
+function alterarFit(){
+    
+    if(document.documentElement.clientWidth >= 1000){
+        setElementos("fill");
+    }
+    else{
+        setElementos("cover");
+    }
+}
+
+function setElementos(tipo){
+    let elementos = document.getElementsByClassName("imgformat");
+    for(let i = 0; i < elementos.length; i++){
+        elementos[i].style.setProperty("object-fit", tipo);
+    }
+}
 
 function CarregarItemView(href, id){
     $.cookie("id_movel", id);
