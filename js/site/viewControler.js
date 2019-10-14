@@ -40,6 +40,17 @@ function PegarMovel(dados, id){
             sendDocHeightMsg();
         }
 
+        let wppapi = document.getElementById("WppAPI");
+        let wpplink = document.createElement("a");
+        let texto = tratamentoHora() + ", gostaria de receber informação sobre a " + dados.moveis[id].nome + ".";
+        wpplink.setAttribute('href', ('https://wa.me/5511995401715?text=' + texto.replace(" ", "%20")));
+        wpplink.setAttribute('target', '_blank');
+        wpplink.setAttribute('class', 'whatsapp');
+        wpplink.innerHTML = "Mais informações ";
+        let wppicon = document.createElement("i");
+        wppicon.setAttribute('class', 'fab fa-whatsapp');
+        wpplink.appendChild(wppicon);
+        wppapi.appendChild(wpplink);
     }
 }
 
@@ -49,5 +60,24 @@ $(document).ready(function(){
         PegarMovel(data, id);
     });
 
-    
 });
+
+
+function tratamentoHora(){
+    let objTime = new Date();
+    let hora = objTime.getHours();
+
+    let retorno;
+    if(hora >= 5 && hora < 12){
+        retorno = "Bom dia";
+    } else {
+        if(hora >= 12 && hora < 18){
+            retorno = "Boa tarde";
+        }
+        else {
+            retorno = "Boa noite";
+        }
+    }
+
+    return retorno;
+}

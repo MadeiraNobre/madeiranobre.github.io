@@ -26,3 +26,13 @@ div.centralizador{
     margin-bottom: auto !important;
     margin-top: auto !important;
 }
+
+.whatsapp:hover{
+	color: chartreuse;
+}
+
+.whatsapp{
+    color: gray;
+    font-size: 30px;
+}
+
