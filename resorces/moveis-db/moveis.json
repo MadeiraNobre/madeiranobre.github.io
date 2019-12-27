@@ -80,6 +80,16 @@
                 "Banquinho/1.jpg","Banquinho/2.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Jogo de Bancos",
+            "descricao": "Jogo de Bancos em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.\n\nCapacidade: 5 lugares ( 1 banco para 3 e 2 poltronas individuais).",
+            "imgs" : 
+            [
+                "Bancos/1.jpg","Bancos/2.jpg","Bancos/3.jpg","Bancos/4.jpg","Bancos/5.jpg"
+            ]
+            
         }
     ]
 }
