@@ -4,7 +4,7 @@
         {
             "ativado" : true,
             "nome" : "Adega",
-            "descricao": "Adega Madeira Nobre Móveis 100% em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m\n\nAcabamento: cera",
+            "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m\n\nAcabamento: cera",
             "imgs" : 
             [
                 "Adega/1.jpg","Adega/2.jpg","Adega/3.jpg"
@@ -14,10 +14,20 @@
         {
             "ativado" : true,
             "nome" : "Jogo de Sofás",
-            "descricao": "Jogo de Sofás Madeira Nobre Móveis 100% em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "descricao": "Jogo de Sofás em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
             "imgs" : 
             [
                 "Sofa/1.jpg","Sofa/2.jpg","Sofa/3.jpg","Sofa/4.jpg","Sofa/5.jpg","Sofa/6.jpg"
+            ]
+            
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Jantar Circular",
+            "descricao": "Mesa de Jantar com Prato Giratório em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.\n\nCapacidade: 8 pessoas.",
+            "imgs" : 
+            [
+                "MesaCircular/1.jpg","MesaCircular/2.jpg","MesaCircular/3.jpg","MesaCircular/4.jpg","MesaCircular/5.jpg","MesaCircular/6.jpg"
             ]
             
         }
