@@ -30,6 +30,16 @@
                 "MesaCircular/1.jpg","MesaCircular/2.jpg","MesaCircular/3.jpg","MesaCircular/4.jpg","MesaCircular/5.jpg","MesaCircular/6.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Jantar",
+            "descricao": "Mesa de Jantar Quadrada em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade para 8 lugares.\n\nAcabamento: cera.",
+            "imgs" : 
+            [
+                "MesaQuadrada/1.jpg","MesaQuadrada/2.jpg","MesaQuadrada/3.jpg","MesaQuadrada/4.jpg","MesaQuadrada/5.jpg"
+            ]
+            
         }
     ]
 }
