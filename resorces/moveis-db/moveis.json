@@ -90,6 +90,16 @@
                 "Bancos/1.jpg","Bancos/2.jpg","Bancos/3.jpg","Bancos/4.jpg","Bancos/5.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa Bistrô",
+            "descricao": "Mesa Bistrô em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "imgs" : 
+            [
+                "Bistro/1.jpg","Bistro/2.jpg","Bistro/3.jpg"
+            ]
+            
         }
     ]
 }
