@@ -12,7 +12,7 @@
 }
   
 .imgformat{
-  object-fit: fill;
+  object-fit: none;
   width: var(--width-slide) !important;
   height: var(--heigh-slide) !important;
 }

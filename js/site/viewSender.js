@@ -57,7 +57,7 @@ $(document).ready(function(){
 function alterarFit(){
     
     if(document.documentElement.clientWidth >= 1000){
-        setElementos("fill");
+        setElementos();
     }
     else{
         setElementos("cover");

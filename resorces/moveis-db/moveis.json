@@ -3,180 +3,21 @@
     [
         {
             "ativado" : true,
-            "nome" : "Poltrona Verdona",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
+            "nome" : "Adega",
+            "descricao": "Adega Madeira Nobre Móveis 100% em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m\n\nAcabamento: cera",
             "imgs" : 
             [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
+                "Adega/1.jpg","Adega/2.jpg","Adega/3.jpg"
             ]
             
         },
         {
             "ativado" : true,
-            "nome" : "Suposta poltrona Verdona",
-            "descricao": "teste de poltrona",
+            "nome" : "Jogo de Sofás",
+            "descricao": "Jogo de Sofás Madeira Nobre Móveis 100% em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
             "imgs" : 
             [
-                "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona Verdona1",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona Verdona2",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona Verdona3",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona Verdona",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona Verdona",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "Poltrona last",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
-            ]
-            
-        }
-        ,
-        {
-            "ativado" : true,
-            "nome" : "foda",
-            "descricao": "Poltrona Verona, por Rodrigo Karam - Um móvel pensado para quem busca beleza, durabilidade e exclusividade, a Poltrona Verona foi pensada para atender os clientes mais exigentes quando o assunto é qualidade. Sua madeira tratada e o tricô de alta resistência permitem que a peça fique exposta ao Sol e chuva. Com seu design moderno e arrojado, a Verona é uma peça atemporal, que certamente fará toda a diferença no seu ambiente.",
-            "imgs" : 
-            [
-                "verdona1.jpg", "verdona2.png", "verdona3.png", "verdona4.gif"
+                "Sofa/1.jpg","Sofa/2.jpg","Sofa/3.jpg","Sofa/4.jpg","Sofa/5.jpg","Sofa/6.jpg"
             ]
             
         }
