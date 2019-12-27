@@ -50,6 +50,16 @@
                 "Aparador/1.jpg","Aparador/2.jpg","Aparador/3.jpg","Aparador/4.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Centro Circular",
+            "descricao": "Mesa de Centro em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "imgs" : 
+            [
+                "MesaCentro/1.jpg","MesaCentro/2.jpg","MesaCentro/3.jpg"
+            ]
+            
         }
     ]
 }
