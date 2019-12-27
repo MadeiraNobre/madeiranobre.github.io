@@ -70,6 +70,16 @@
                 "Aparador2/1.jpg","Aparador2/2.jpg","Aparador2/3.jpg","Aparador2/4.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Banquinho",
+            "descricao": "Banquinho em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "imgs" : 
+            [
+                "Banquinho/1.jpg","Banquinho/2.jpg"
+            ]
+            
         }
     ]
 }
