@@ -24,3 +24,6 @@ img.thumb {
   height: var(--hthumb) !important;
 }
 
+h5.editarfont{
+    font-size: 250%;
+}
