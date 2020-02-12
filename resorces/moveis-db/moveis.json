@@ -104,10 +104,20 @@
         {
             "ativado" : true,
             "nome" : "Cristaleira",
-            "descricao": "Cristaleira feita artesanalmente em peroba rosa demolição.\n\n",
+            "descricao": "Cristaleira feita artesanalmente em peroba rosa demolição.",
             "imgs" : 
             [
                 "Cristaleira/2.jpg","Cristaleira/1.jpg","Cristaleira/3.jpg"
+            ]
+            
+        },
+        {
+            "ativado" : true,
+            "nome" : "Jogo de Bancos Labirinto",
+            "descricao": "Jogo de bancos em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 5 Lugares (1 banco para 3 e 2 poltronas individuais)",
+            "imgs" : 
+            [
+                "JogoDeBancoLabirinto/1.jpg","JogoDeBancoLabirinto/2.jpg","JogoDeBancoLabirinto/3.jpg", "JogoDeBancoLabirinto/4.jpg"
             ]
             
         }
