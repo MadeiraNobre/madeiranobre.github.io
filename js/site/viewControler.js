@@ -42,7 +42,7 @@ function PegarMovel(dados, id){
 
         let wppapi = document.getElementById("WppAPI");
         let wpplink = document.createElement("a");
-        let texto = tratamentoHora() + ", gostaria de receber informação sobre a " + dados.moveis[id].nome + ".";
+        let texto = tratamentoHora() + ", gostaria de receber informação sobre " + dados.moveis[id].nome + ".";
         wpplink.setAttribute('href', ('https://wa.me/5511995401715?text=' + texto.replace(" ", "%20")));
         wpplink.setAttribute('target', '_blank');
         wpplink.setAttribute('class', 'whatsapp');
