@@ -100,6 +100,16 @@
                 "Bistro/1.jpg","Bistro/2.jpg","Bistro/3.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Cristaleira",
+            "descricao": "Cristaleira feita artesanalmente em peroba rosa demolição.\n\n",
+            "imgs" : 
+            [
+                "Cristaleira/2.jpg","Cristaleira/1.jpg","Cristaleira/3.jpg"
+            ]
+            
         }
     ]
 }
