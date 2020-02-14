@@ -120,6 +120,16 @@
                 "JogoDeBancoLabirinto/1.jpg","JogoDeBancoLabirinto/2.jpg","JogoDeBancoLabirinto/3.jpg", "JogoDeBancoLabirinto/4.jpg"
             ]
             
+        },
+        {
+            "ativado" : true,
+            "nome" : "Armario",
+            "descricao": "Armario em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera",
+            "imgs" : 
+            [
+                "Armario/1.jpg","Armario/2.jpg","Armario/3.jpg", "Armario/4.jpg", "Armario/5.jpg"
+            ]
+            
         }
     ]
 }
