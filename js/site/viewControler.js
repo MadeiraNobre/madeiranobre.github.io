@@ -21,7 +21,7 @@ function PegarMovel(dados, id){
         imgElement.src = ("../resorces/moveis-db/imgmoveis/" + dados.moveis[id].imgs[0]);
         document.getElementById('divimg0').appendChild(imgElement);
             
-        for (let i = 1; i < dados.moveis[id].imgs.length; i++){
+        for (let i = 2; i < dados.moveis[id].imgs.length; i++){
             let lielement = document.createElement("li");
             lielement.dataset.target = "#slide";
             lielement.setAttribute('data-slide-to', i);
