@@ -18,7 +18,7 @@ function PegarMovel(dados, id){
         imgElement = document.createElement('img');
         imgElement.setAttribute('class', 'd-block w-100 imgformat');
         imgElement.setAttribute('alt', 'Imagem do Movel');
-        imgElement.src = ("../resorces/moveis-db/imgmoveis/" + dados.moveis[id].imgs[0]);
+        imgElement.src = ("../resorces/moveis-db/imgmoveis/" + dados.moveis[id].imgs[1]);
         document.getElementById('divimg0').appendChild(imgElement);
             
         for (let i = 2; i < dados.moveis[id].imgs.length; i++){

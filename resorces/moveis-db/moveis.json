@@ -128,8 +128,34 @@
             "imgs" : 
             [
                 "Armario/0.jpg", "Armario/1.jpg","Armario/2.jpg","Armario/3.jpg", "Armario/4.jpg", "Armario/5.jpg"
-            ]
-            
+            ]     
+        },
+        {
+            "ativado" : true,
+            "nome" : "Baú",
+            "descricao": "Baú em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 5 Lugares",
+            "imgs" : 
+            [
+                "Bau/0.jpg", "Bau/1.jpg","Bau/2.jpg"
+            ]     
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa",
+            "descricao": "Mesa em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 8 Lugares",
+            "imgs" : 
+            [
+                "Mesa/0.jpg", "Mesa/1.jpg","Mesa/2.jpg"
+            ]     
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa Circular",
+            "descricao": "Mesa Circular em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera",
+            "imgs" : 
+            [
+                "MesaCircular2/0.jpg", "MesaCircular2/1.jpg","MesaCircular2/2.jpg"
+            ]     
         }
     ]
 }
