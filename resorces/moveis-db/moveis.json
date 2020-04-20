@@ -4,7 +4,7 @@
         {
             "ativado" : true,
             "nome" : "Adega",
-            "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m\n\nAcabamento: cera",
+            "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m",
             "imgs" : 
             [
                 "Adega/0.jpg", "Adega/1.jpg","Adega/2.jpg","Adega/3.jpg"
@@ -13,38 +13,8 @@
         },
         {
             "ativado" : true,
-            "nome" : "Jogo de Sofás",
-            "descricao": "Jogo de Sofás em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
-            "imgs" : 
-            [
-                "Sofa/0.jpg", "Sofa/1.jpg","Sofa/2.jpg","Sofa/3.jpg","Sofa/4.jpg","Sofa/5.jpg","Sofa/6.jpg"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Mesa de Jantar Circular",
-            "descricao": "Mesa de Jantar com Prato Giratório em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.\n\nCapacidade: 8 pessoas.",
-            "imgs" : 
-            [
-                "MesaCircular/0.jpg", "MesaCircular/1.jpg","MesaCircular/2.jpg","MesaCircular/3.jpg","MesaCircular/4.jpg","MesaCircular/5.jpg","MesaCircular/6.jpg"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Mesa de Jantar",
-            "descricao": "Mesa de Jantar Quadrada em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade para 8 lugares.\n\nAcabamento: cera.",
-            "imgs" : 
-            [
-                "MesaQuadrada/0.jpg", "MesaQuadrada/1.jpg","MesaQuadrada/2.jpg","MesaQuadrada/3.jpg","MesaQuadrada/4.jpg","MesaQuadrada/5.jpg"
-            ]
-            
-        },
-        {
-            "ativado" : true,
             "nome" : "Aparador",
-            "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.\n\nTamanho: largura 1,5 m.",
+            "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nTamanho: largura 1,5 m.",
             "imgs" : 
             [
                 "Aparador/0.jpg", "Aparador/1.jpg","Aparador/2.jpg","Aparador/3.jpg","Aparador/4.jpg"
@@ -53,18 +23,8 @@
         },
         {
             "ativado" : true,
-            "nome" : "Mesa de Centro Circular",
-            "descricao": "Mesa de Centro em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
-            "imgs" : 
-            [
-                "MesaCentro/0.jpg", "MesaCentro/1.jpg","MesaCentro/2.jpg","MesaCentro/3.jpg"
-            ]
-            
-        },
-        {
-            "ativado" : true,
             "nome" : "Aparador 2",
-            "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.",
             "imgs" : 
             [
                 "Aparador2/0.jpg", "Aparador2/1.jpg","Aparador2/2.jpg","Aparador2/3.jpg","Aparador2/4.jpg"
@@ -73,8 +33,17 @@
         },
         {
             "ativado" : true,
+            "nome" : "Armario",
+            "descricao": "Armario em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.",
+            "imgs" : 
+            [
+                "Armario/0.jpg", "Armario/1.jpg","Armario/2.jpg","Armario/3.jpg", "Armario/4.jpg", "Armario/5.jpg"
+            ]     
+        },
+        {
+            "ativado" : true,
             "nome" : "Banquinho",
-            "descricao": "Banquinho em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
+            "descricao": "Banquinho em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.",
             "imgs" : 
             [
                 "Banquinho/0.jpg", "Banquinho/1.jpg","Banquinho/2.jpg"
@@ -83,23 +52,12 @@
         },
         {
             "ativado" : true,
-            "nome" : "Jogo de Bancos",
-            "descricao": "Jogo de Bancos em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.\n\nCapacidade: 5 lugares ( 1 banco para 3 e 2 poltronas individuais).",
+            "nome" : "Baú",
+            "descricao": "Baú em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.",
             "imgs" : 
             [
-                "Bancos/0.jpg", "Bancos/1.jpg","Bancos/2.jpg","Bancos/3.jpg","Bancos/4.jpg","Bancos/5.jpg"
-            ]
-            
-        },
-        {
-            "ativado" : true,
-            "nome" : "Mesa Bistrô",
-            "descricao": "Mesa Bistrô em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: cera.",
-            "imgs" : 
-            [
-                "Bistro/0.jpg", "Bistro/1.jpg","Bistro/2.jpg","Bistro/3.jpg"
-            ]
-            
+                "Bau/0.jpg", "Bau/1.jpg","Bau/2.jpg"
+            ]     
         },
         {
             "ativado" : true,
@@ -113,8 +71,18 @@
         },
         {
             "ativado" : true,
+            "nome" : "Jogo de Bancos",
+            "descricao": "Jogo de Bancos em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade: 5 lugares ( 1 banco para 3 e 2 poltronas individuais).",
+            "imgs" : 
+            [
+                "Bancos/0.jpg", "Bancos/1.jpg","Bancos/2.jpg","Bancos/3.jpg","Bancos/4.jpg","Bancos/5.jpg"
+            ]
+            
+        },
+        {
+            "ativado" : true,
             "nome" : "Jogo de Bancos Labirinto",
-            "descricao": "Jogo de bancos em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 5 Lugares (1 banco para 3 e 2 poltronas individuais)",
+            "descricao": "Jogo de bancos em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade: 5 Lugares (1 banco para 3 e 2 poltronas individuais)",
             "imgs" : 
             [
                 "JogoDeBancoLabirinto/0.jpg", "JogoDeBancoLabirinto/1.jpg","JogoDeBancoLabirinto/2.jpg","JogoDeBancoLabirinto/3.jpg", "JogoDeBancoLabirinto/4.jpg"
@@ -123,30 +91,32 @@
         },
         {
             "ativado" : true,
-            "nome" : "Armario",
-            "descricao": "Armario em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera",
+            "nome" : "Jogo de Sofás",
+            "descricao": "Jogo de Sofás em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.",
             "imgs" : 
             [
-                "Armario/0.jpg", "Armario/1.jpg","Armario/2.jpg","Armario/3.jpg", "Armario/4.jpg", "Armario/5.jpg"
-            ]     
-        },
-        {
-            "ativado" : true,
-            "nome" : "Baú",
-            "descricao": "Baú em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 5 Lugares",
-            "imgs" : 
-            [
-                "Bau/0.jpg", "Bau/1.jpg","Bau/2.jpg"
-            ]     
+                "Sofa/0.jpg", "Sofa/1.jpg","Sofa/2.jpg","Sofa/3.jpg","Sofa/4.jpg","Sofa/5.jpg","Sofa/6.jpg"
+            ]
+            
         },
         {
             "ativado" : true,
             "nome" : "Mesa",
-            "descricao": "Mesa em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera\n\nCapacidade: 8 Lugares",
+            "descricao": "Mesa em Peroba Rosa\n\nFeita artesanalmente em madeira de demolição.\n\nAcabamento: Cera",
             "imgs" : 
             [
                 "Mesa/0.jpg", "Mesa/1.jpg","Mesa/2.jpg"
             ]     
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa Bistrô",
+            "descricao": "Mesa Bistrô em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.",
+            "imgs" : 
+            [
+                "Bistro/0.jpg", "Bistro/1.jpg","Bistro/2.jpg","Bistro/3.jpg"
+            ]
+            
         },
         {
             "ativado" : true,
@@ -156,6 +126,36 @@
             [
                 "MesaCircular2/0.jpg", "MesaCircular2/1.jpg","MesaCircular2/2.jpg"
             ]     
-        }
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Centro Circular",
+            "descricao": "Mesa de Centro em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.",
+            "imgs" : 
+            [
+                "MesaCentro/0.jpg", "MesaCentro/1.jpg","MesaCentro/2.jpg","MesaCentro/3.jpg"
+            ]
+            
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Jantar",
+            "descricao": "Mesa de Jantar Quadrada em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade para 8 lugares.",
+            "imgs" : 
+            [
+                "MesaQuadrada/0.jpg", "MesaQuadrada/1.jpg","MesaQuadrada/2.jpg","MesaQuadrada/3.jpg","MesaQuadrada/4.jpg","MesaQuadrada/5.jpg"
+            ]
+            
+        },
+        {
+            "ativado" : true,
+            "nome" : "Mesa de Jantar Circular",
+            "descricao": "Mesa de Jantar com Prato Giratório em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição.\n\nCapacidade: 8 pessoas.",
+            "imgs" : 
+            [
+                "MesaCircular/0.jpg", "MesaCircular/1.jpg","MesaCircular/2.jpg","MesaCircular/3.jpg","MesaCircular/4.jpg","MesaCircular/5.jpg","MesaCircular/6.jpg"
+            ]
+            
+        }  
     ]
 }
