@@ -34,7 +34,7 @@ export default class ListaMoveisController {
                 }
                 let img = document.createElement("img");
                 let p = document.createElement("p");
-                p.innerText = this.json.moveis[i].nome;
+                p.innerText = this.json.moveis[i].tituloCatalogo;
                 img.setAttribute('src', `/resorces/moveis-db/imgmoveis/${this.json.moveis[i].imgs[0]}`);
                 img.setAttribute('alt', `Imagem da ${this.json.moveis[i].nome}`);
                 img.setAttribute('class', 'thumb');

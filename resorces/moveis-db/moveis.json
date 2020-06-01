@@ -4,6 +4,7 @@
         {
             "ativado" : true,
             "nome" : "Adega",
+            "tituloCatalogo": "Adega",
             "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente, os nichos para as garrafas são feitos em cabo de aço.",
             "imgs" : 
             [
@@ -14,6 +15,7 @@
         {
             "ativado" : true,
             "nome" : "Aparador",
+            "tituloCatalogo": "Aparador",
             "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -24,6 +26,7 @@
         {
             "ativado" : true,
             "nome" : "Aparador com plateleira",
+            "tituloCatalogo": "Aparador",
             "descricao": "Aparador em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -34,6 +37,7 @@
         {
             "ativado" : true,
             "nome" : "Armario",
+            "tituloCatalogo": "Armario",
             "descricao": "Armario em Peroba Rosa\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -43,6 +47,7 @@
         {
             "ativado" : true,
             "nome" : "Banquinho",
+            "tituloCatalogo": "Banquinho",
             "descricao": "Banquinho em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -53,6 +58,7 @@
         {
             "ativado" : true,
             "nome" : "Baú",
+            "tituloCatalogo": "Baú",
             "descricao": "Baú em Peroba Rosa\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -62,6 +68,7 @@
         {
             "ativado" : true,
             "nome" : "Cristaleira",
+            "tituloCatalogo": "Cristaleira",
             "descricao": "Cristaleira feita artesanalmente.",
             "imgs" : 
             [
@@ -72,6 +79,7 @@
         {
             "ativado" : true,
             "nome" : "Jogo de Bancos",
+            "tituloCatalogo": "Bancos",
             "descricao": "Jogo de Bancos em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -82,6 +90,7 @@
         {
             "ativado" : true,
             "nome" : "Jogo de Bancos Labirinto",
+            "tituloCatalogo": "Bancos",
             "descricao": "Jogo de bancos em Peroba Rosa\n\nFeita artesanalmente.\n\nCapacidade: 5 Lugares (1 banco para 3 e 2 poltronas individuais)",
             "imgs" : 
             [
@@ -92,6 +101,7 @@
         {
             "ativado" : true,
             "nome" : "Jogo de Sofás",
+            "tituloCatalogo": "Sofás",
             "descricao": "Jogo de Sofás em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -102,6 +112,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa de Jantar Nova Era",
+            "tituloCatalogo": "Mesa",
             "descricao": "Mesa em Peroba Rosa\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -111,6 +122,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa Bistrô",
+            "tituloCatalogo": "Bistrô",
             "descricao": "Mesa Bistrô em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -121,6 +133,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa Circular",
+            "tituloCatalogo": "Mesa",
             "descricao": "Mesa Circular em Peroba Rosa\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -130,6 +143,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa de Centro Circular",
+            "tituloCatalogo": "Mesa",
             "descricao": "Mesa de Centro em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -140,6 +154,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa de Jantar Victoria",
+            "tituloCatalogo": "Mesa",
             "descricao": "Mesa de Jantar Quadrada Victoria em Peroba Rosa.\n\nFeita artesanalmente.",
             "imgs" : 
             [
@@ -150,6 +165,7 @@
         {
             "ativado" : true,
             "nome" : "Mesa de Jantar Circular",
+            "tituloCatalogo": "Mesa",
             "descricao": "Mesa de Jantar com Prato Giratório em Peroba Rosa.\n\nFeita artesanalmente.\n\nCapacidade: 8 pessoas.",
             "imgs" : 
             [
