@@ -4,7 +4,7 @@
         {
             "ativado" : true,
             "nome" : "Adega",
-            "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.\n\nMedidas: 1,00x1,00m",
+            "descricao": "Adega em Peroba Rosa.\n\nFeita artesanalmente em madeira de demolição, os nichos para as garrafas são feitos em cabo de aço.",
             "imgs" : 
             [
                 "Adega/0.jpg", "Adega/1.jpg","Adega/2.jpg","Adega/3.jpg"
