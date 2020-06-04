@@ -1,0 +1,38 @@
+:root{
+    --width-slide: 100%;
+    --heigh-slide: 370px;
+}
+
+h1.tituloformat{
+    text-overflow: clip;
+}
+
+.slideshow{
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
+}
+
+.imgformat{
+    object-fit: fill !important;
+    width: var(--width-slide) !important;
+    height: var(--heigh-slide) !important;
+}
+
+div.format{
+    margin-bottom: 0 !important;
+}
+
+div.centralizador{
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+}
+
+.whatsapp:hover{
+	color: chartreuse;
+}
+
+.whatsapp{
+    color: gray;
+    font-size: 30px;
+}
+
