@@ -1,19 +1,26 @@
 mod utils;
+mod router;
 
-use wasm_bindgen::prelude::*;
+use wasm_bindgen::prelude::wasm_bindgen;
+use web_sys::Element;
+use yew::App;
 
-// When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
-// allocator.
+
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
-#[wasm_bindgen]
-extern {
-    fn alert(s: &str);
+
+fn get_main_element() -> Option<Element> {
+    let window = web_sys::window()?;
+    let document = window.document()?;
+    document.get_element_by_id("app")
 }
 
-#[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, madeiranobre!");
+#[wasm_bindgen(start)]
+pub fn run() {
+    let element = get_main_element();
+
+    App::<router::App>::new()
+        .mount(element.expect("Não pode instanciar o elemento principal."));
 }
