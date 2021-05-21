@@ -1,8 +1,8 @@
 $(document).ready(function(){
     if(location.search){
-       infrate("paginas/movel");
+       infrate("static/paginas/movel");
     }else{
-        infrate("paginas/home");
+        infrate("static/paginas/home");
     }
 
     registerEvent(".navClick");

@@ -12,8 +12,8 @@ function criarLinha(tamanhoLinha, linhaAtual, data){
     for(var i = linhaAtual * tamanhoLinha; i < data.moveis.length && i < limite; i++){
         if(data.moveis[i].ativado){
             linha.append($("<div class='col-4 text-center'></div>")
-                .append($("<a data-url='/paginas/movel'></a>").click(i, catalogoOnclick)
-                    .append($("<img src='/assets/internal/moveis-db/imgmoveis/" + data.moveis[i].imgs[0] +
+                .append($("<a data-url='/static/paginas/movel'></a>").click(i, catalogoOnclick)
+                    .append($("<img src='/static/assets/internal/moveis-db/imgmoveis/" + data.moveis[i].imgs[0] +
                         "' alt='Imagem " + data.moveis[i].nome +"' class='thumb'></img>"))
                     .append($("<p></p>").text(data.moveis[i].tituloCatalogo))
                 )

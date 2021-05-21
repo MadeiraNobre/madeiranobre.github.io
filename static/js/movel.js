@@ -36,7 +36,7 @@ function criarSlides(images){
         $("#controles").append($("<li data-target='#slide' data-slide-to='" + i +"'></li>"));
         $("#imagesLocal").append($("<div class='carousel-item'></div>")
             .append($("<img class='d-block w-100 imgformat'></img>")
-                .attr("src", "/assets/internal/moveis-db/imgmoveis/" + images[i])
+                .attr("src", "/static/assets/internal/moveis-db/imgmoveis/" + images[i])
             )
         );
     }
@@ -67,7 +67,7 @@ function tratamentoHora(){
     return retorno;
 }
 
-$.getJSON("/assets/internal/moveis-db/moveis.json", function(dados){
+$.getJSON("/static/assets/internal/moveis-db/moveis.json", function(dados){
     var index = getUrlVars().movel;
     criarTitulo(dados.moveis[index].nome);
     criarDescricao(dados.moveis[index].descricao);
