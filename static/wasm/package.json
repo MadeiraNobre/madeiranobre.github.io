@@ -1,0 +1,15 @@
+{
+  "name": "madeiranobre",
+  "collaborators": [
+    "Takasakiii <lucasmc2709@live.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "madeiranobre_app_bg.wasm",
+    "madeiranobre_app.js",
+    "madeiranobre_app.d.ts"
+  ],
+  "module": "madeiranobre_app.js",
+  "types": "madeiranobre_app.d.ts",
+  "sideEffects": false
+}
