@@ -1,12 +1,21 @@
 mod index;
+mod produtos;
 use yew::{Component, ComponentLink, Html, ShouldRender, html};
 use yew_router::{Switch, router::Router};
-use index::IndexPage;
+use crate::router::{index::IndexPage, produtos::ProdutosPage};
 
 #[derive(Switch, Debug, Clone)]
 pub enum RouterApp {
+    #[to="/#/produtos{*:rest}"]
+    Produtos(ProdutosRoute),
     #[to="/"]
     Index
+}
+
+#[derive(Switch, Debug, Clone)]
+pub enum ProdutosRoute {
+    #[to=""]
+    IndexProdutos
 }
 
 pub enum AppMessage {}
@@ -22,7 +31,8 @@ impl Component for App {
             <Router<RouterApp, ()>
                 render = Router::render(|switch: RouterApp| {
                     match switch {
-                        RouterApp::Index => html!{<IndexPage/>},
+                        RouterApp::Produtos(produtos_route) => html! {<ProdutosPage route=produtos_route/>},
+                        RouterApp::Index => html!{<IndexPage/>}
                     }
                 })
             />
