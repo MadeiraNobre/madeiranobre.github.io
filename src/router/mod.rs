@@ -11,9 +11,7 @@ pub enum RouterApp {
 
 pub enum AppMessage {}
 
-pub struct App {
-    link: ComponentLink<Self>
-}
+pub struct App;
 
 impl Component for App {
     type Message = AppMessage;
@@ -39,9 +37,7 @@ impl Component for App {
         true
     }
 
-    fn create(_props: Self::Properties, link: ComponentLink<Self>) -> Self {
-        Self {
-            link
-        }
+    fn create(_props: Self::Properties, _link: ComponentLink<Self>) -> Self {
+        Self
     }
 }

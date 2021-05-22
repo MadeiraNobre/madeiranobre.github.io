@@ -2,9 +2,7 @@ use yew::{Component, ComponentLink, Html, ShouldRender, html};
 
 pub enum IndexMessages {}
 
-pub struct IndexPage {
-    link: ComponentLink<Self>
-}
+pub struct IndexPage;
 
 impl Component for IndexPage{
     type Message = IndexMessages;
@@ -16,10 +14,8 @@ impl Component for IndexPage{
         }
     }
 
-    fn create(_props: Self::Properties, link: ComponentLink<Self>) -> Self {
-        Self {
-            link
-        }
+    fn create(_props: Self::Properties, _link: ComponentLink<Self>) -> Self {
+        Self
     }
 
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {
