@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Adegas",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Aparadores",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Armarios",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bancos",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sofás",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Mesas",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Cadeiras",
+        "icon": "/static/assets/internal/moveis-db/imgmoveis/Adega/1.jpg"
+    }
+]

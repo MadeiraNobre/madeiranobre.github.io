@@ -1,5 +1,8 @@
+mod list;
+
 use yew::{Component, ComponentLink, Html, ShouldRender, html, prelude::Properties};
 use yew_router::router::Router;
+use list::ListaProdutosPage;
 
 use super::ProdutosRoute;
 
@@ -20,10 +23,11 @@ impl Component for ProdutosPage {
     fn view(&self) -> Html {
         html! {
             <div class="produtos-main-page__main-div">
+                <link rel="stylesheet" href="/static/css/pages/produtos.css"/>
                 <Router<ProdutosRoute, ()>
                 render = Router::render(|switch: ProdutosRoute|{
                     match switch {
-                        ProdutosRoute::IndexProdutos => html! {<h1>{"oiiii"}</h1>}
+                        ProdutosRoute::IndexProdutos => html! {<ListaProdutosPage />}
                     }
                 })/>
                 <footer class="produtos-main-page__footer">
