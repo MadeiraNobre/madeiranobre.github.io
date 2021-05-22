@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+:root {
+    --default-radius: 5px;
+    --merienda-font: 'Merienda', cursive;
+    --gold-color: #daa520;
+}
