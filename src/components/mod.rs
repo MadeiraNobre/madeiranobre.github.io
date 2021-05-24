@@ -1,3 +1,3 @@
-mod categoria_item;
+mod movel_item;
 
-pub use categoria_item::CategoriaItemComponent;
+pub use movel_item::MovelItemComponent;

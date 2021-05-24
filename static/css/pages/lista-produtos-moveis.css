@@ -1,0 +1,7 @@
+.lista-produtos-moveis-page__root {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: calc(50vw + (10 * 1rem));
+    justify-content: center;
+}

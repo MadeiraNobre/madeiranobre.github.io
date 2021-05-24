@@ -1,14 +1,13 @@
 use yew::{Component, ComponentLink, Html, ShouldRender, html};
 
-use crate::models::Categoria;
+use crate::{api::Api, helpers, models::MoveisResponse, components::MovelItemComponent};
 
 pub enum ListaProdutosMessage {
-    ReceivedData(Vec<Categoria>)
+    ReceivedData(MoveisResponse)
 }
 
 pub struct ListaProdutosPage {
-    categorias: Vec<Categoria>,
-    link: ComponentLink<Self>
+    moveis: Option<MoveisResponse>
 }
 
 impl Component for ListaProdutosPage {
@@ -21,36 +20,55 @@ impl Component for ListaProdutosPage {
 
     fn update(&mut self, msg: Self::Message) -> ShouldRender {
         match msg {
-            ListaProdutosMessage::ReceivedData(data) => self.categorias = data
+            ListaProdutosMessage::ReceivedData(data) => self.moveis = Some(data)
         }
 
         true
     }
 
     fn create(_props: Self::Properties, link: ComponentLink<Self>) -> Self {
-        get_data(link.clone());
+        get_data(link);
         Self {
-            link,
-            categorias: Vec::new()
+            moveis: None
         }
     }
 
     fn view(&self) -> Html {
-        html! {
-            <div>
-                {"oi"}
-                {self.categorias.iter().map(|e| html! {<h1>{&e.name}</h1>}).collect::<Html>()}
-            </div>
+        match &self.moveis {
+            Some(moveis) => {
+                html!{
+                    <>
+                        <link rel="stylesheet" href="/static/css/pages/lista-produtos-moveis.css"/>
+                        <div class="lista-produtos-moveis-page__root">
+                            {
+                                moveis.moveis
+                                    .iter()
+                                    .enumerate()
+                                    .map(|(i, e)| html! {<MovelItemComponent index_id=i as u8 movel=e.clone()/>})
+                                    .collect::<Html>()
+                            }
+                        </div>
+                    </>
+                }
+            },
+            None => html! {
+                <div>
+                    {"Nao tem"}
+                </div>
+            }
         }
     }
 }
 
 fn get_data(link: ComponentLink<ListaProdutosPage>) {
-    wasm_bindgen_futures::spawn_local(async move {
-        link.send_message(ListaProdutosMessage::ReceivedData(vec![Categoria {
-            icon: "oi".into(),
-            id: 0,
-            name: "fodaaoporra".into()
-        }]));
+    let api = Api::new();
+
+    api.get_moveis(move |c| {
+        match c {
+            Ok(data) => link.send_message(ListaProdutosMessage::ReceivedData(data)),
+            Err(why) => {
+                helpers::catch_error(why);
+            }
+        }
     })
 }

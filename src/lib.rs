@@ -2,6 +2,8 @@ mod utils;
 mod router;
 pub mod components;
 pub mod models;
+pub mod helpers;
+pub mod api;
 
 use wasm_bindgen::prelude::wasm_bindgen;
 use web_sys::Element;

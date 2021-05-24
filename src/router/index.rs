@@ -15,7 +15,7 @@ impl Component for IndexPage{
                     <h1 class="index-page__form-title">{"Madeira Nobre Móveis"}</h1>
                     <span class="index-page__form-span">{"Moveis • Arte • Decoração"}</span>
                     <div class="index-page__form-buttons">
-                        <a class="index-page__form-button" href="/temporary_index.html">{"Nossos Produtos"}</a>
+                        <a class="index-page__form-button" href="#/produtos">{"Nossos Produtos"}</a>
                         <a class="index-page__form-button" href="/temporary_index.html#footer">{"Sobre a Loja"}</a>
                     </div>
                 </div>

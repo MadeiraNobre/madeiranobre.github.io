@@ -22,25 +22,27 @@ impl Component for ProdutosPage {
 
     fn view(&self) -> Html {
         html! {
-            <div class="produtos-main-page__main-div">
+            <>
                 <link rel="stylesheet" href="/static/css/pages/produtos.css"/>
-                <Router<ProdutosRoute, ()>
-                render = Router::render(|switch: ProdutosRoute|{
-                    match switch {
-                        ProdutosRoute::IndexProdutos => html! {<ListaProdutosPage />}
-                    }
-                })/>
-                <footer class="produtos-main-page__footer">
-                    <nav class="produtos-main-page__fot-nav">
-                        <a href="#" class="produtos-main-page__logo">
-                            <span>{"MN"}</span>
-                        </a>
-                        <button class="produtos-main-page__fot-but">{"Móveis"}</button>
-                        <button class="produtos-main-page__fot-but">{"Decoração"}</button>
-                        <button class="produtos-main-page__fot-but">{"Arte"}</button>
-                    </nav>
-                </footer>
-            </div>
+                <div class="produtos-main-page__main-div">
+                    <Router<ProdutosRoute, ()>
+                    render = Router::render(|switch: ProdutosRoute|{
+                        match switch {
+                            ProdutosRoute::IndexProdutos => html! {<ListaProdutosPage />}
+                        }
+                    })/>
+                    <footer class="produtos-main-page__footer">
+                        <nav class="produtos-main-page__fot-nav">
+                            <a href="#" class="produtos-main-page__logo">
+                                <span>{"MN"}</span>
+                            </a>
+                            <button class="produtos-main-page__fot-but">{"Móveis"}</button>
+                            <button class="produtos-main-page__fot-but">{"Decoração"}</button>
+                            <button class="produtos-main-page__fot-but">{"Arte"}</button>
+                        </nav>
+                    </footer>
+                </div>
+            </>
         }
     }
 
@@ -49,10 +51,10 @@ impl Component for ProdutosPage {
     }
 
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {
-        true
+        false
     }
 
     fn change(&mut self, _props: Self::Properties) -> ShouldRender {
-        true
+        false
     }
 }
