@@ -201,7 +201,8 @@
         --item-width: 400px;
         flex-direction: column;
         height: 90vh;
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
         width: 400px;
         align-items: center;
     }
