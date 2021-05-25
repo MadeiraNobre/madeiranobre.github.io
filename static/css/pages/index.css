@@ -83,6 +83,8 @@
     }
 
 .index-page__sobre {
+    animation-name: index-page__sobre-animation;
+    animation-duration: 400ms;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -264,5 +266,15 @@
 
     .index-page__form-span {
         font-size: 1rem;
+    }
+}
+
+@keyframes index-page__sobre-animation {
+    from {
+        top: -100vh;
+    }
+
+    to {
+        top: 0;
     }
 }
