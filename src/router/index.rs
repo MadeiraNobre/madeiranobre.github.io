@@ -28,7 +28,7 @@ impl Component for IndexPage{
                         </div>
                         <div class="index-page__sobre-localizacao">
                             <h2>{"Localização da Loja:"}</h2>
-                            <iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.414196599979!2d-46.91756218445572!3d-23.445519463210903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1b4f0cc225cd%3A0xf598051641594ca0!2sR.%20Andr%C3%A9%20Fernandes%2C%20115%20-%20Centro%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006501-050!5e0!3m2!1spt-BR!2sbr!4v1570404266532!5m2!1spt-BR!2sbr" class="w-100" style="border:0;" allowfullscreen="" height="300" frameborder="0"></iframe>
+                            <iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.414196599979!2d-46.91756218445572!3d-23.445519463210903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1b4f0cc225cd%3A0xf598051641594ca0!2sR.%20Andr%C3%A9%20Fernandes%2C%20115%20-%20Centro%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006501-050!5e0!3m2!1spt-BR!2sbr!4v1570404266532!5m2!1spt-BR!2sbr" allowfullscreen="" frameborder="0"></iframe>
                         </div>
                         <div class="index-page__sobre-contato">
                             <h2>{"Endereço e Contato:"}</h2>

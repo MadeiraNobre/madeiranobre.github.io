@@ -135,6 +135,8 @@
 
     .index-page__sobre-localizacao iframe {
         border-radius: 5px;
+        width: 300px;
+        height: 300px;
     }
 
 .index-page__sobre-contato{
@@ -198,7 +200,7 @@
     .index-page__sobre-central {
         --item-width: 400px;
         flex-direction: column;
-        height: 100vh;
+        height: 90vh;
         overflow: auto;
         width: 400px;
         align-items: center;
@@ -256,6 +258,11 @@
     .index-page__sobre-central {
         --item-width: 290px;
         width: 290px;
+    }
+
+    .index-page__sobre-localizacao iframe {
+        width: 290px;
+        height: 290px;
     }
 }
 
