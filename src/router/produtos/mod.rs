@@ -1,20 +1,21 @@
-mod list;
+pub mod list;
+pub mod view;
 
-use yew::{Component, ComponentLink, Html, ShouldRender, html, prelude::Properties};
-use yew_router::router::Router;
-use list::ListaProdutosPage;
+use yew::{Children, Component, ComponentLink, Html, ShouldRender, html, prelude::Properties};
 
-use super::ProdutosRoute;
 
 pub enum ProdutosMessage {}
 
 #[derive(Properties, Clone)]
 pub struct ProdutosProps {
-    pub route: ProdutosRoute
+    #[prop_or_default]
+    pub children: Children
 }
 
 
-pub struct ProdutosPage;
+pub struct ProdutosPage {
+    children: Children
+}
 
 impl Component for ProdutosPage {
     type Message = ProdutosMessage;
@@ -25,12 +26,7 @@ impl Component for ProdutosPage {
             <>
                 <link rel="stylesheet" href="/static/css/pages/produtos.css"/>
                 <div class="produtos-main-page__main-div">
-                    <Router<ProdutosRoute, ()>
-                    render = Router::render(|switch: ProdutosRoute|{
-                        match switch {
-                            ProdutosRoute::IndexProdutos => html! {<ListaProdutosPage />}
-                        }
-                    })/>
+                    {for self.children.iter()}
                     <footer class="produtos-main-page__footer">
                         <nav class="produtos-main-page__fot-nav">
                             <a href="#" class="produtos-main-page__logo">
@@ -46,8 +42,10 @@ impl Component for ProdutosPage {
         }
     }
 
-    fn create(_props: Self::Properties, _link: ComponentLink<Self>) -> Self {
-        Self
+    fn create(props: Self::Properties, _link: ComponentLink<Self>) -> Self {
+        Self {
+            children: props.children
+        }
     }
 
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {

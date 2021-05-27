@@ -2,21 +2,18 @@ mod index;
 mod produtos;
 use yew::{Component, ComponentLink, Html, ShouldRender, html};
 use yew_router::{Switch, router::Router};
-use crate::router::{index::IndexPage, produtos::ProdutosPage};
+use crate::router::{index::IndexPage, produtos::{ProdutosPage, list::ListaProdutosPage, view::MoveisPageView}};
 
 #[derive(Switch, Debug, Clone)]
 pub enum RouterApp {
-    #[to="/#/produtos{*:rest}"]
-    Produtos(ProdutosRoute),
-    #[to="/"]
+    #[to="/#/produtos/{id}"]
+    ProdutoView(u64),
+    #[to="/#/produtos"]
+    ProdutosList,
+    #[to=""]
     Index
 }
 
-#[derive(Switch, Debug, Clone)]
-pub enum ProdutosRoute {
-    #[to=""]
-    IndexProdutos
-}
 
 pub enum AppMessage {}
 
@@ -31,7 +28,8 @@ impl Component for App {
             <Router<RouterApp, ()>
                 render = Router::render(|switch: RouterApp| {
                     match switch {
-                        RouterApp::Produtos(produtos_route) => html! {<ProdutosPage route=produtos_route/>},
+                        RouterApp::ProdutosList => html! {<ProdutosPage><ListaProdutosPage/></ProdutosPage>},
+                        RouterApp::ProdutoView(id) => html! {<ProdutosPage><MoveisPageView/></ProdutosPage>},
                         RouterApp::Index => html!{<IndexPage/>}
                     }
                 })
