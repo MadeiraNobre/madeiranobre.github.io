@@ -1,15 +1,22 @@
-const Foo = { template: '<div>foo</div>' }
-const Bar = { template: '<div>bar</div>' }
+const defaultPagePath = '/static/pages'
+
+Vue.use(httpVueLoader)
 
 const router = new VueRouter({
     routes: [
         {
             path: '',
-            component: httpVueLoader('/static/pages/index.vue')
+            component: httpVueLoader(defaultPagePath + '/index.vue')
         },
         {
-            path: '/path',
-            component: Bar
+            path: '/produtos',
+            component: httpVueLoader('/static/layouts/bar.vue'),
+            children: [
+                {
+                    path: '',
+                    component: httpVueLoader(defaultPagePath + '/lista-produtos.vue')
+                }
+            ]
         }
     ]
 })

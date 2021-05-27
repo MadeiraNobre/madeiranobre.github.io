@@ -1,3 +1,21 @@
+<template>
+    <div class="produtos-main-page__main-div">
+        <router-view></router-view>
+        <footer class="produtos-main-page__footer">
+            <nav class="produtos-main-page__fot-nav">
+                <a href="#" class="produtos-main-page__logo">
+                    <span>MN</span>
+                </a>
+                <button class="produtos-main-page__fot-but">Móveis</button>
+                <button class="produtos-main-page__fot-but">Decoração</button>
+                <button class="produtos-main-page__fot-but">Arte</button>
+            </nav>
+        </footer>
+    </div>
+</template>
+
+
+<style scoped>
 .produtos-main-page__main-div::after {
     content: ' ';
     height: 5rem;
@@ -104,3 +122,5 @@
         margin-right: 0;
     }
 }
+
+</style>
