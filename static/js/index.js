@@ -15,6 +15,10 @@ const router = new VueRouter({
                 {
                     path: '',
                     component: httpVueLoader(defaultPagePath + '/lista-produtos.vue')
+                },
+                {
+                    path: ':id',
+                    component: httpVueLoader(defaultPagePath + '/view-produto.vue')
                 }
             ]
         }

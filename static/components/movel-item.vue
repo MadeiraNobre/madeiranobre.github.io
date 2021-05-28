@@ -1,5 +1,5 @@
 <template>
-    <a :href="`/temporary_index.html?movel=${id}`" class="movel-item-component__main">
+    <a :href="`#/produtos/${id}`" class="movel-item-component__main">
         <img class="movel-item-component__image" :src="`/static/assets/internal/moveis-db/imgmoveis/${movel.imgs[0]}`" :alt="movel.nome"/>
         <h2 class="movel-item-component__title">{{ movel.tituloCatalogo }}</h2>
     </a>
